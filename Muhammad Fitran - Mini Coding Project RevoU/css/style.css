@@ -1,0 +1,86 @@
+html {
+    font-family: Calibri;
+    font-size: 14px;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    transition: 0.6s;
+    z-index: 100000;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo {
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+.headerButton { 
+    border: 1px solid black;
+    border-right: none;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    width: 120px;
+}
+
+.beranda {
+    display: flex;
+    margin: 0px auto;
+}
+
+.tubuh {
+    padding-left: 60px;
+    padding-right: 60px;
+    margin: 0px;
+    border: 1px solid white;
+}
+
+.fac {
+    display: inline-block;
+}
+
+.facilitation {
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.facilitationCapt {
+    width: 160px;
+    text-align: center;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.massage {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.massageInput {
+    display: inline-block;
+    margin-left: auto;
+    width: 336px;
+}
+
+.massageSubmit {
+    display: inline-block;
+    width: 100%;
+}
+
+body {
+    margin: 0px;
+    border: 1px solid black;
+    padding-top: 6px;
+    padding-bottom: 25px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
