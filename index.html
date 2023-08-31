@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fitran's Website</title>
+        <link rel="icon" href="source/RevoU.png" style="border-radius: 50%;">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <script defer src="js/script.js"></script>
+    </head>
+
+    <body id="home">
+        <header>
+            <img class="logo" src="source/RevoU.png" heigth="55" width="55">
+            <button class="headerButton"><a href="#home">Home</a></button>
+            <button class="headerButton"><a href="#ourProfile">Our Profile</a></button>
+            <button class="headerButton"><a href="#achievement">Achievement</a></button>
+            <button style="border-right: 1px solid black" class="headerButton"><a href="#massageUs">Massage Us</a></button>
+        </header>
+
+        <hr>
+        <div class="tubuh" id="ourProfile">
+            <h1>Hi, Welcome To Fitran's Website</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            
+            <img class="beranda" src="source/Gedung Rektorat Telkom University.jpg" height="382" width="680">
+        </div>
+
+        <hr>
+        <div class="tubuh" id="achievement">
+            <h2><b>Our Facilitation</b></h2>
+            <br>
+            <figure class="fac">
+                <img class="facilitation" src="source/Profesional Teacher Telkom University.jpeg">
+                <figcaption class="facilitationCapt">Professional Teacher</figcaption>
+            </figure>
+            <figure class="fac">
+                <img class="facilitation" src="source/Sport Field Telkom University.jpeg">
+                <figcaption class="facilitationCapt">Sport Field</figcaption>
+            </figure>
+            <figure class="fac">
+                <img class="facilitation" src="source/Classroom Telkom University.jpeg">
+                <figcaption class="facilitationCapt">Classroom</figcaption>
+            </figure>
+        </div>
+
+        <hr>
+        <div class="tubuh" id="massageUs">
+            <h2><b>Massage Us</b></h2>
+            <div style="display: flex; width: 100%;">
+                <form id="massageUsForm" style="width: 40%; height: 270px;">
+                    <div class="massage">
+                        <label for="nama">Nama: </label>
+                        <input class="massageInput" type="text" id="nama" name="nama" placeholder="Nama" required>
+                    </div>
+                    <br>
+                    <div class="massage">
+                        <label for="tanggalLahir">Tanggal Lahir: </label>
+                        <input class="massageInput" type="date" id="tanggalLahir" name="tanggalLahir" required>
+                    </div>
+                    <br>
+                    <div class="massage">
+                        <label for="jenisKelamin">Jenis Kelamin: </label>
+                        <input type="radio" id="laki" name="jenisKelamin" required>
+                        <label for="laki-laki">Laki-laki</label>
+                        <input type="radio" id="perempuan" name="jenisKelamin" required>
+                        <label for="perempuan">Perempuan</label>
+                    </div>
+                    <br>
+                    <div class="massage">
+                        <label for="pesan">Pesan: </label>
+                        <textarea class="massageInput" style="font-family: Calibri; font-size: 14px; resize: none;" type="text" id="pesan" name="pesan" placeholder="Pesan" rows="6" required></textarea>
+                    </div>
+                    <br>
+                    <div class="massage">
+                        <input class="massageSubmit" id="massageSubmit" type="submit">
+                    </div>
+                    <br>
+                </form>
+                <div class="massageSent" id="massageSent" style="border: 2px solid black; width: 58%; height: 238px; margin-bottom: 10px; margin-left: 10px; padding: 8px;"><b>Your massage ...</b></div>
+            </div>
+        </div>
+
+        <hr>
+        <footer>
+            <b>Created by Muhammad Fitran Ramadhan</b>
+        </footer>
+    </body>
+</html>
